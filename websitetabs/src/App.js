@@ -11,16 +11,16 @@ function App() {
       <div>
       <Nav variant="tabs" className="flex-row">
           <Nav.Item>
-            <Nav.Link eventKey="first">Tab 1</Nav.Link>
+            <Nav.Link eventKey="first">ELT</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="second">Tab 2</Nav.Link>
+            <Nav.Link eventKey="second">Tech Videos</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="third">Tab 3</Nav.Link>
+            <Nav.Link eventKey="third">Pdf Reader</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="fourth">Tab 4</Nav.Link>
+            <Nav.Link eventKey="fourth">Web Dev Video</Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link eventKey="fifth">Tab 5</Nav.Link>
@@ -33,16 +33,16 @@ function App() {
       <div>
         <Tab.Content>
           <Tab.Pane eventKey="first">
-            <p>Content for Tab 1</p>
+            <p>Easy Life Technology Ideas</p>
           </Tab.Pane>
           <Tab.Pane eventKey="second">
-            <p>Content for Tab 2</p>
+            <p>Tech Videos for making life easy</p>
           </Tab.Pane>
           <Tab.Pane eventKey="third">
-            <p>Content for Tab 3</p>
+            <p>Convert any pdf file to editable word or text by uploading the file</p>
           </Tab.Pane>
           <Tab.Pane eventKey="fourth">
-            <p>Content for Tab 4</p>
+            <p>Web Development Ideas</p>
           </Tab.Pane>
           <Tab.Pane eventKey="fifth">
             <p>Content for Tab 5</p>
