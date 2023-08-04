@@ -1,15 +1,17 @@
 //import logo from './logo.svg';
-import './App.css';
 import React from 'react';
-import { Tab, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Tab, Nav } from 'react-bootstrap';
+
+import './App.css';
+
 
 
 function App() {
   return (
     <Tab.Container id="left-tabs-example" defaultActiveKey="first">
-      <div>
-      <Nav variant="tabs" className="flex-row">
+      <div className='tabcolormain'>
+      <Nav variant="tabs" className="flex-row tabscolor">
           <Nav.Item>
             <Nav.Link eventKey="first">ELT</Nav.Link>
           </Nav.Item>
@@ -23,10 +25,10 @@ function App() {
             <Nav.Link eventKey="fourth">Web Dev Video</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="fifth">Tab 5</Nav.Link>
+            <Nav.Link eventKey="fifth">Web Ideas</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="sixth">Tab 6</Nav.Link>
+            <Nav.Link eventKey="sixth">Members Chat</Nav.Link>
           </Nav.Item>
         </Nav>
       </div>
@@ -45,10 +47,10 @@ function App() {
             <p>Web Development Ideas</p>
           </Tab.Pane>
           <Tab.Pane eventKey="fifth">
-            <p>Content for Tab 5</p>
+            <p>Convert to EPub File</p>
           </Tab.Pane>
           <Tab.Pane eventKey="sixth">
-            <p>Content for Tab 6</p>
+            <p>Chat to members</p>
 
           </Tab.Pane>
         </Tab.Content>
